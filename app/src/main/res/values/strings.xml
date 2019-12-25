@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Elqaseem</string>
+    <string name="splash_text1">الكُل في منصةٍ واحدة</string>
+    <string name="splash_text2"> منتجع - شالية - استراحة - مخيم</string>
+    <string name="row_element_name">Row Element Name</string>
+    <string name="row_element_details">Row Element Details</string>
+    <string name="rating">rating 33 </string>
+    <string name="week_days">Week Days</string>
+    <string name="week_days_price">80 Rial</string>
+    <string name="week_end_days">week end days</string>
+    <string name="week_end_days_price">300 Rial </string>
+    <string name="week_end_days_special_price">200 Rial</string>
+    <string name="week_days_spec_ial_price">50 Rial</string>
+    <string name="special_offer">Special offer</string>
+    <string name="available">Available</string>
+    <string name="unAvailable">Un Available</string>
+    <string name="bottom_main">Main</string>
+    <string name="bottom_more">More</string>
+    <string name="bottom_favourite">Favourite</string>
+    <string name="bottom_offers">Offers</string>
+    <string name="bottom_extra_services">Extra Services</string>
+    <string name="btn_search_by_city">Search by city</string>
+    <string name="txt_city">City</string>
+    <string name="txt_type">Type</string>
+    <string name="btn_search_by_chalet_type">Search by chalet type</string>
+    <string name="txt_start_date">Start Date</string>
+    <string name="btn_start_date">Start Date</string>
+    <string name="txt_end_date">End Date</string>
+    <string name="btn_end_date">End Date</string>
+    <string name="btn_search_by_chalet_name">Search for chalet</string>
+    <string name="edtxt_search_by_chalet_name">Search by chalet name</string>
+    <string name="btn_search">Search</string>
+</resources>

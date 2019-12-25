@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_main_search"
+            android:layout_width="170dp"
+            android:layout_height="97dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo_sh" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_main_search"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txt_city" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/edit_text_shape"
+                    android:drawableStart="@drawable/search"
+                    android:padding="8dp"
+                    android:text="@string/btn_search_by_city" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txt_type" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/edit_text_shape"
+                    android:drawableStart="@drawable/search"
+                    android:padding="8dp"
+                    android:text="@string/btn_search_by_chalet_type" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/txt_start_date" />
+
+                        <Button
+                            android:id="@+id/btn_home_startDate"
+                            android:layout_width="130dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/edit_text_shape"
+                            android:drawableStart="@drawable/search"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="@string/btn_start_date" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/txt_end_date" />
+
+                        <Button
+                            android:id="@+id/btn_home_endDate"
+                            android:layout_width="130dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/edit_text_shape"
+                            android:drawableStart="@drawable/search"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="@string/btn_end_date" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_home_searchNow"
+                    android:layout_width="300dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#0054a6"
+                    android:text="@string/btn_search_by_chalet_name"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/card_view2"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edit_text_style2"
+                    android:drawableStart="@drawable/search"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/edtxt_search_by_chalet_name" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#0054a6"
+                    android:text="@string/btn_search"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>
